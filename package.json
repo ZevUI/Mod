@@ -1,0 +1,9 @@
+{
+  "name": "vanta-moderation-bot",
+  "version": "1.0.0",
+  "description": "VANTA Discord moderation bot",
+  "main": "src/index.js",
+  "scripts": {"start": "node src/index.js", "deploy-commands": "node deploy-commands.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"discord.js": "^14.19.3", "better-sqlite3": "^11.8.1", "dotenv": "^16.4.7"}
+}
